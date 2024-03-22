@@ -4,6 +4,18 @@ The figure shouldn't surpass a square of 200x200 points.
 The turtle passed should be start AND END pointing left at the right-left corner of the figure.
 """
 
+def bluesquare_fernando(turtle):
+    """
+    Author: Fernando Santos
+    Draws a simple 100x100 square
+    """
+    turtle.fillcolor('blue')
+    turtle.begin_fill()
+    for i in range(4):
+        turtle.forward(150)
+        turtle.right(90)
+    turtle.end_fill()
+
 def square_fernando(turtle):
     """
     Author: Fernando Santos
