@@ -20,7 +20,7 @@ def square_fernando(turtle):
     """
     Author: Fernando Santos
     Draws a simple 100x100 square
-    """
+    """ 
     turtle.fillcolor('green')
     turtle.begin_fill()
     for i in range(4):
@@ -53,3 +53,16 @@ def fractal_fernando(t):
         koch_line(length)
         t.right(360/poly_sides)
     t.end_fill()
+    
+  def square_Nation(t):
+      """
+      Author:Victoria Nation
+      draws a blue square 100x100
+      """
+      turtle.fillcolor('blue')
+      turtle.begin_fill()
+      for i in range(4):
+        turtle.forward(150)
+        turtle.right(90)
+      turtle.end_fill()
+    
